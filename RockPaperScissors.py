@@ -18,7 +18,7 @@ def play():
                 print(F"\n\t| You won {playerScore} out of {counter} rounds! |")
                 if tieCount > 0:
                     print(F"\t|    {tieCount} round(s) were tie!    |\n")
-            quit()
+                    quit()
 
         if playerInput == comp:
             tieCount += 1
