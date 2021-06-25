@@ -1,5 +1,4 @@
 import random
-#from random import randrange
 
 def play():
     items = ["rock", "paper", "scissors"]
